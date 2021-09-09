@@ -1,0 +1,13 @@
+Generate a jupyter config file in terminal using commands:
+
+jupyter notebook --generate-config
+
+open the script jupyter_notebook_config.py in the directory
+/.jupyter and uncomment the line 531 : Set 
+
+c.NotebookApp.use_redirect_file = True  to
+
+c.NotebookApp.use_redirect_file = False. 
+
+It will work.
+
